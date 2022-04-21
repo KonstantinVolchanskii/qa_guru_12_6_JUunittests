@@ -83,6 +83,7 @@ public class WebTest {
         //проверить значение в поле
         $("#spsModal").shouldHave(text("ВАША ЗАЯВКА ОТПРАВЛЕНА")).click();
 
+        
     }
 
         static Stream<Arguments> validationPhoneTest(){
