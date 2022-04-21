@@ -1,5 +1,6 @@
 package guru.qa;
 
+
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.AfterEach;
@@ -82,6 +83,7 @@ public class WebTest {
         $("input[type=submit").click();
         //проверить значение в поле
         $("#spsModal").shouldHave(text("ВАША ЗАЯВКА ОТПРАВЛЕНА")).click();
+
 
     }
 
